@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary {
+  color: #34caa5;
+}
+
+.secondary {
+  color: #0d062d;
+}
+
+.success {
+  color: #00ac56;
+}
+
+.error {
+  color: #ff1f7d;
+}
+
+.warning {
+  color: #f5bf3d;
+}
+
+.background {
+  color: #fdfdfd;
+}
+
+.grayscale-50 {
+  color: #fafafa;
+}
+
+.grayscale-100 {
+  color: #f5f5f5;
+}
+
+.grayscale-200 {
+  color: #e5e5e5;
+}
+
+.grayscale-300 {
+  color: #b2abab;
+}
+
+.grayscale-400 {
+  color: #a3a3a3;
+}
+
+.grayscale-500 {
+  color: #737373;
+}
+
+.grayscale-600 {
+  color: #525252;
+}
+
+.grayscale-700 {
+  color: #404040;
+}
+
+.grayscale-800 {
+  color: #262626;
+}
+
+.grayscale-900 {
+  color: #171717;
+}
