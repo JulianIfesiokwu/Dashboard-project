@@ -1,10 +1,13 @@
+import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 
 const Dashboard = () => {
   return (
-    <div className='flex'>
+    <div className='flex bg-[#fafafa] w-screen'>
       <Sidebar />
-      Dashboard
+      <div className='metrics-container '>
+        <Header />
+      </div>
     </div>
   );
 };
