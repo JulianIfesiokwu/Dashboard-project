@@ -2,8 +2,8 @@ import IMAGES from "../assets/images";
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-between p-[18px] bg-[#fafafa] border-b border-[#e5eaef] w-full'>
-      <div className='title-section flex items-center justify-between'>
+    <div className='flex items-center justify-between gap-[22px] px-[22px] py-[13px] bg-[#fafafa] border-b border-[#e5eaef] w-full'>
+      <div className='title-section w-[62%] flex items-center justify-between'>
         <h1 className='leading-[28px] text-[#26282c] font-semibold text-xl font-Jarkata'>
           Dashboard
         </h1>
@@ -25,13 +25,13 @@ const Header = () => {
           <input
             type='text'
             placeholder='Search...'
-            className='bg-transparent border-none focus:border-none'
+            className='bg-transparent border-none focus:border-none text-base font-Inter leading-[24px]'
           />
         </div>
       </div>
-      <div className='profile-section flex items-center'>
+      <div className='profile-section w-[38%] flex items-center justify-between gap-5'>
         <div className='date flex items-center gap-5'>
-          <div className='calendar-date flex gap-[10px]'>
+          <div className='calendar-date flex items-center gap-[10px] px-4 py-3'>
             <svg
               width='20'
               height='20'
@@ -87,14 +87,14 @@ const Header = () => {
           <div className='flex items-center gap-2'>
             <img
               src={IMAGES.profile}
-              className='rounded-full'
+              className='rounded-full w-[38px] h-[38px] object-contain'
               alt='profile picture'
             />
             <div className='flex flex-col items-end gap-1'>
-              <p className='font-Inter text-base text-[#26282C]'>
+              <p className='font-Inter text-base leading-none text-[#26282C]'>
                 Justin Bergson
               </p>
-              <p className='font-Inter text-sm text-[#787486]'>
+              <p className='font-Inter text-sm leading-none text-[#787486]'>
                 Justin@gmail.com
               </p>
             </div>
